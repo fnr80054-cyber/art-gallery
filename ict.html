@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Gallery | Home</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+ 
+    <style>
+        :root {
+            --gold-accent: #c69a35;
+            --dark-charcoal: #d7cb1f;
+        }
+
+        .header-container {
+            padding: 3rem 1rem;
+            background-color: #000000;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .brand-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.3rem;
+            text-transform: uppercase;
+            color: var(--dark-charcoal);
+            margin-bottom: 0.5rem;
+        }
+
+        .slogan {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.8rem;
+            color: var(--gold-accent);
+            margin-top: -10px; /* Pulls the cursive closer to the brand name for a tighter look */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 576px) {
+            .slogan { font-size: 2rem; }
+            .brand-name { font-size: 0.7rem; }
+        }
+    </style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <div class="container-fluid" style="background-color: #e4d612a5;">
+    <a class="navbar-brand" href="index.html"></a><p><strong><i>LUXE AURA</i></strong></p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item"><a class="nav-link active" href="ict.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<header class="header-container text-center">
+    <div class="container">
+        <div class="brand-name animate__animated animate__fadeIn">
+            Luxe Aura Art Gallery
+        </div>
+        
+        <div class="slogan">
+            Where Sophistication Meets the Canvas
+        </div>
+    </div>
+</header>
+  <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Collection</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <img src="https://media.istockphoto.com/id/498309616/photo/great-ocean-road-at-night-milky-way-view.jpg?b=1&s=612x612&w=0&k=20&c=EpkHai3Vn3Os-5v_gZupizdJXbzKGHm7mr1Tggs9mU0=" class="img-fluid gallery-img rounded" alt="Art 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=600&q=80" class="img-fluid gallery-img rounded" alt="Art 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1711315506268-74d336f21484?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGFydHdvcmslMjBuYXR1cmV8ZW58MHx8MHx8fDA%3D" class="img-fluid gallery-img rounded" alt="Art 3">
+                   </div>      
+       
+  <div class="col-md-4">
+     <img src="https://plus.unsplash.com/premium_photo-1667238544336-17a1cbfd4801?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxhcnR3b3JrJTIwbmF0dXJlfGVufDB8fDB8f"class=img-fluid gallery-img rounded" alt="Art 4">
+ </div>
+  <div class="col-md-4">
+<img src="https://plus.unsplash.com/premium_photo-1711061901087-609f9d9147af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxhcnR3b3JrJTIwbmF0dXJlfGVufDB8fDB8fHwwclass=img-fluid gallery-img rounded" alt="Art 5" height="200" width="300">
+  </div>
+
+<div class="col-md-4">
+<img src="https://plus.unsplash.com/premium_photo-1667340456421-e39b77a25217?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fGFydHdvcmslMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D"class=img-fluid gallery-img rounded" alt="Art 6">
+</div>
+
+</div>
+    </section>
+ 
+<footer class="bg-dark text-white text-center py-4">
+  <p>&copy; 2026 Art Gallery. All rights reserved.</p>
+</footer>
+
+</html>
+
+
